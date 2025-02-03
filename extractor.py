@@ -39,7 +39,7 @@ def process_files_in_parallel(files, folder_path, output_file):
     return vocab
 
 if __name__ == "__main__":
-    folder_path = "C:/Users/Thinkbook 14/.cache\huggingface/datasets/openwebtext/plain_text/1.0.0/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521"  # Path to directory containing Arrow files
+    folder_path = "C:/Users/Username/.cache\huggingface/datasets/openwebtext/plain_text/1.0.0/6f68e85c16ccc770c0dd489f4008852ea9633604995addd0cd76e293aed9e521"  # Path to directory containing Arrow files
     output_file_train = "train_split.txt"
     output_file_val = "val_split.txt"
     vocab_file = "vocab.txt"
